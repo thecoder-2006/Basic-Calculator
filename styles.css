@@ -1,0 +1,29 @@
+.calculator {
+    background: linear-gradient(145deg, #4c1d95, #1e3a8a);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+.display {
+    background: #1e1b4b;
+    border: 2px solid #6b7280;
+    color: #f9a8d4;
+}
+.btn {
+    transition: all 0.2s ease;
+    background: #312e81;
+}
+.btn:hover {
+    background: #5b21b6;
+    transform: scale(1.05);
+}
+.operator {
+    background: #db2777;
+}
+.operator:hover {
+    background: #be185d;
+}
+.equals {
+    background: #7c3aed;
+}
+.equals:hover {
+    background: #6d28d9;
+}
